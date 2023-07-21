@@ -11,4 +11,6 @@ This is just a sample project that I worked on during my free time as I haven't 
 
 I hope you enjoy the file. Please do let me know if you want me to include some other stats in the file. I hope you enjoy the dataset :)
 
+I would also like to acknowledge that I had used loops quite a lot in the script which might take a while to execute and I am working on making the code more efficient. Please let me know if you can find a more efficient way to avoid loops as much as possible and I will try to incorporate it into the script.
+
 You can reach out to me at viveknimmagadda@gmail.com in case of any queries.
