@@ -1,4 +1,4 @@
-# Creating-a-Pokedex.csv-file-using-Web-Scraping-in-Python
+# Pokedex (Gen 1 - 9)
 Created a pokedex.csv file from scratch using web-scraping in Python. A thorough data analysis will be conducted on the data in the coming weeks.
 
 Step 1: In the first step I extracted all the Pokedex entries from pokemondb.net. I then realized that they don't include abilities as a part of the table.
