@@ -505,12 +505,12 @@ Cranidos,Rock,,0408,350,67,125,40,30,30,58,"Mold Breaker, Sheer Force",Mold Brea
 Rampardos,Rock,,0409,495,97,165,60,65,50,58,"Mold Breaker, Sheer Force",Mold Breaker,,Sheer Force
 Shieldon,Rock,Steel,0410,350,30,42,118,42,88,30,"Sturdy, Soundproof",Sturdy,,Soundproof
 Bastiodon,Rock,Steel,0411,495,60,52,168,47,138,30,"Sturdy, Soundproof",Sturdy,,Soundproof
-Burmy Plant Cloak,Bug,,0412,224,40,29,45,29,45,36,Shed Skin Overcoat,Shed Skin Overcoat,,
-Burmy Sandy Cloak,Bug,,0412,224,40,29,45,29,45,36,Shed Skin Overcoat,Shed Skin Overcoat,,
-Burmy Trash Cloak,Bug,,0412,224,40,29,45,29,45,36,Shed Skin Overcoat,Shed Skin Overcoat,,
-Wormadam Plant Cloak,Bug,Grass,0413,424,60,59,85,79,105,36,Anticipation Overcoat,Anticipation Overcoat,,
-Wormadam Sandy Cloak,Bug,Ground,0413,424,60,79,105,59,85,36,Anticipation Overcoat,Anticipation Overcoat,,
-Wormadam Trash Cloak,Bug,Steel,0413,424,60,69,95,69,95,36,Anticipation Overcoat,Anticipation Overcoat,,
+Burmy Plant Cloak,Bug,,0412,224,40,29,45,29,45,36,"Shed Skin, Overcoat",Shed Skin,,Overcoat
+Burmy Sandy Cloak,Bug,,0412,224,40,29,45,29,45,36,"Shed Skin, Overcoat",Shed Skin,,Overcoat
+Burmy Trash Cloak,Bug,,0412,224,40,29,45,29,45,36,"Shed Skin, Overcoat",Shed Skin,,Overcoat
+Wormadam Plant Cloak,Bug,Grass,0413,424,60,59,85,79,105,36,"Anticipation, Overcoat",Anticipation,,Overcoat
+Wormadam Sandy Cloak,Bug,Ground,0413,424,60,79,105,59,85,36,"Anticipation, Overcoat",Anticipation,,Overcoat
+Wormadam Trash Cloak,Bug,Steel,0413,424,60,69,95,69,95,36,"Anticipation, Overcoat",Anticipation,,Overcoat
 Mothim,Bug,Flying,0414,424,70,94,50,94,50,66,"Swarm, Tinted Lens",Swarm,,Tinted Lens
 Combee,Bug,Flying,0415,244,30,30,42,30,42,70,"Honey Gather, Hustle",Honey Gather,,Hustle
 Vespiquen,Bug,Flying,0416,474,70,80,102,80,102,40,"Pressure, Unnerve",Pressure,,Unnerve
@@ -537,7 +537,7 @@ Skuntank,Poison,Dark,0435,479,103,93,67,71,61,84,"Stench, Aftermath, Keen Eye",S
 Bronzor,Steel,Psychic,0436,300,57,24,86,24,86,23,"Levitate, Heatproof, Heavy Metal",Levitate,Heatproof,Heavy Metal
 Bronzong,Steel,Psychic,0437,500,67,89,116,79,116,33,"Levitate, Heatproof, Heavy Metal",Levitate,Heatproof,Heavy Metal
 Bonsly,Rock,,0438,290,50,80,95,10,45,10,"Sturdy, Rock Head, Rattled",Sturdy,Rock Head,Rattled
-Mime Jr.,Psychic,Fairy,0439,310,20,25,45,70,90,60,Soundproof Filter Technician,Soundproof Filter Technician,,
+Mime Jr.,Psychic,Fairy,0439,310,20,25,45,70,90,60,"Soundproof, Filter, Technician",Soundproof,Filter,Technician
 Happiny,Normal,,0440,220,100,5,5,15,65,30,"Natural Cure, Serene Grace, Friend Guard",Natural Cure,Serene Grace,Friend Guard
 Chatot,Normal,Flying,0441,411,76,65,45,92,42,91,"Keen Eye, Tangled Feet, Big Pecks",Keen Eye,Tangled Feet,Big Pecks
 Spiritomb,Ghost,Dark,0442,485,50,92,108,92,108,35,"Pressure, Infiltrator",Pressure,,Infiltrator
@@ -575,7 +575,7 @@ Leafeon,Grass,,0470,525,65,110,130,60,65,95,"Leaf Guard, Chlorophyll",Leaf Guard
 Glaceon,Ice,,0471,525,65,60,110,130,95,65,"Snow Cloak, Ice Body",Snow Cloak,,Ice Body
 Gliscor,Ground,Flying,0472,510,75,95,125,45,75,95,"Hyper Cutter, Sand Veil, Poison Heal",Hyper Cutter,Sand Veil,Poison Heal
 Mamoswine,Ice,Ground,0473,530,110,130,80,70,60,80,"Oblivious, Snow Cloak, Thick Fat",Oblivious,Snow Cloak,Thick Fat
-Porygon-Z,Normal,,0474,535,85,80,70,135,75,90,Adaptability Download Analytic,Adaptability Download Analytic,,
+Porygon-Z,Normal,,0474,535,85,80,70,135,75,90,"Adaptability, Download, Analytic",Adaptability,Download,Analytic
 Gallade,Psychic,Fighting,0475,518,68,125,65,65,115,80,"Steadfast, Sharpness, Justified",Steadfast,Sharpness,Justified
 Gallade Mega Gallade,Psychic,Fighting,0475,618,68,165,95,65,115,110,Inner Focus,Inner Focus,,
 Probopass,Rock,Steel,0476,525,60,55,145,75,150,40,"Sturdy, Magnet Pull, Sand Force",Sturdy,Magnet Pull,Sand Force
@@ -847,14 +847,14 @@ Goodra Hisuian Goodra,Steel,Dragon,0706,600,80,100,100,110,150,60,"Sap Sipper, S
 Klefki,Steel,Fairy,0707,470,57,80,91,80,87,75,"Prankster, Magician",Prankster,,Magician
 Phantump,Ghost,Grass,0708,309,43,70,48,50,60,38,"Natural Cure, Frisk, Harvest",Natural Cure,Frisk,Harvest
 Trevenant,Ghost,Grass,0709,474,85,110,76,65,82,56,"Natural Cure, Frisk, Harvest",Natural Cure,Frisk,Harvest
-Pumpkaboo Average Size,Ghost,Grass,0710,335,49,66,70,44,55,51,Pickup Frisk Insomnia,Pickup Frisk Insomnia,,
-Pumpkaboo Small Size,Ghost,Grass,0710,335,44,66,70,44,55,56,Pickup Frisk Insomnia,Pickup Frisk Insomnia,,
-Pumpkaboo Large Size,Ghost,Grass,0710,335,54,66,70,44,55,46,Pickup Frisk Insomnia,Pickup Frisk Insomnia,,
-Pumpkaboo Super Size,Ghost,Grass,0710,335,59,66,70,44,55,41,Pickup Frisk Insomnia,Pickup Frisk Insomnia,,
-Gourgeist Average Size,Ghost,Grass,0711,494,65,90,122,58,75,84,Pickup Frisk Insomnia,Pickup Frisk Insomnia,,
-Gourgeist Small Size,Ghost,Grass,0711,494,55,85,122,58,75,99,Pickup Frisk Insomnia,Pickup Frisk Insomnia,,
-Gourgeist Large Size,Ghost,Grass,0711,494,75,95,122,58,75,69,Pickup Frisk Insomnia,Pickup Frisk Insomnia,,
-Gourgeist Super Size,Ghost,Grass,0711,494,85,100,122,58,75,54,Pickup Frisk Insomnia,Pickup Frisk Insomnia,,
+Pumpkaboo Average Size,Ghost,Grass,0710,335,49,66,70,44,55,51,"Pickup, Frisk, Insomnia",Pickup,Frisk,Insomnia
+Pumpkaboo Small Size,Ghost,Grass,0710,335,44,66,70,44,55,56,"Pickup, Frisk, Insomnia",Pickup,Frisk,Insomnia
+Pumpkaboo Large Size,Ghost,Grass,0710,335,54,66,70,44,55,46,"Pickup, Frisk, Insomnia",Pickup,Frisk,Insomnia
+Pumpkaboo Super Size,Ghost,Grass,0710,335,59,66,70,44,55,41,"Pickup, Frisk, Insomnia",Pickup,Frisk,Insomnia
+Gourgeist Average Size,Ghost,Grass,0711,494,65,90,122,58,75,84,"Pickup, Frisk, Insomnia",Pickup,Frisk,Insomnia
+Gourgeist Small Size,Ghost,Grass,0711,494,55,85,122,58,75,99,"Pickup, Frisk, Insomnia",Pickup,Frisk,Insomnia
+Gourgeist Large Size,Ghost,Grass,0711,494,75,95,122,58,75,69,"Pickup, Frisk, Insomnia",Pickup,Frisk,Insomnia
+Gourgeist Super Size,Ghost,Grass,0711,494,85,100,122,58,75,54,"Pickup, Frisk, Insomnia",Pickup,Frisk,Insomnia
 Bergmite,Ice,,0712,304,55,69,85,32,35,28,"Own Tempo, Ice Body, Sturdy",Own Tempo,Ice Body,Sturdy
 Avalugg,Ice,,0713,514,95,117,184,44,46,28,"Own Tempo, Ice Body, Sturdy",Own Tempo,Ice Body,Sturdy
 Avalugg Hisuian Avalugg,Ice,Rock,0713,514,95,127,184,34,36,38,"Strong Jaw, Ice Body, Sturdy",Strong Jaw,Ice Body,Sturdy
@@ -942,10 +942,10 @@ Dhelmise,Ghost,Grass,0781,517,70,131,100,86,90,40,Steelworker,Steelworker,,
 Jangmo-o,Dragon,,0782,300,45,55,65,45,45,45,"Bulletproof, Soundproof, Overcoat",Bulletproof,Soundproof,Overcoat
 Hakamo-o,Dragon,Fighting,0783,420,55,75,90,65,70,65,"Bulletproof, Soundproof, Overcoat",Bulletproof,Soundproof,Overcoat
 Kommo-o,Dragon,Fighting,0784,600,75,110,125,100,105,85,"Bulletproof, Soundproof, Overcoat",Bulletproof,Soundproof,Overcoat
-Tapu Koko,Electric,Fairy,0785,570,70,115,85,95,75,130,Electric Surge Telepathy,Electric Surge Telepathy,,
-Tapu Lele,Psychic,Fairy,0786,570,70,85,75,130,115,95,Psychic Surge Telepathy,Psychic Surge Telepathy,,
-Tapu Bulu,Grass,Fairy,0787,570,70,130,115,85,95,75,Grassy Surge Telepathy,Grassy Surge Telepathy,,
-Tapu Fini,Water,Fairy,0788,570,70,75,115,95,130,85,Misty Surge Telepathy,Misty Surge Telepathy,,
+Tapu Koko,Electric,Fairy,0785,570,70,115,85,95,75,130,"Electric Surge, Telepathy",Electric Surge,,Telepathy
+Tapu Lele,Psychic,Fairy,0786,570,70,85,75,130,115,95,"Psychic Surge, Telepathy",Psychic Surge,,Telepathy
+Tapu Bulu,Grass,Fairy,0787,570,70,130,115,85,95,75,"Grassy Surge, Telepathy",Grassy Surge,,Telepathy
+Tapu Fini,Water,Fairy,0788,570,70,75,115,95,130,85,"Misty Surge, Telepathy",Misty Surge,,Telepathy
 Cosmog,Psychic,,0789,200,43,29,31,29,31,37,Unaware,Unaware,,
 Cosmoem,Psychic,,0790,400,43,29,131,29,131,37,Sturdy,Sturdy,,
 Solgaleo,Psychic,Steel,0791,680,137,137,107,113,89,97,Full Metal Body,Full Metal Body,,
@@ -1027,7 +1027,7 @@ Obstagoon,Dark,Normal,0862,520,93,90,101,60,81,95,"Reckless, Guts, Defiant",Reck
 Perrserker,Steel,,0863,440,70,110,100,50,60,50,"Battle Armor, Tough Claws, Steely Spirit",Battle Armor,Tough Claws,Steely Spirit
 Cursola,Ghost,,0864,510,60,95,50,145,130,30,"Weak Armor, Perish Body",Weak Armor,,Perish Body
 Sirfetch'd,Fighting,,0865,507,62,135,95,68,82,65,"Steadfast, Scrappy",Steadfast,,Scrappy
-Mr. Rime,Ice,Psychic,0866,520,80,85,75,110,100,70,Tangled Feet Screen Cleaner Ice Body,Tangled Feet Screen Cleaner Ice Body,,
+Mr. Rime,Ice,Psychic,0866,520,80,85,75,110,100,70,"Tangled Feet, Screen Cleaner, Ice Body",Tangled Feet,Screen Cleaner,Ice Body
 Runerigus,Ground,Ghost,0867,483,58,95,145,50,105,30,Wandering Spirit,Wandering Spirit,,
 Milcery,Fairy,,0868,270,45,40,40,50,61,34,"Sweet Veil, Aroma Veil",Sweet Veil,,Aroma Veil
 Alcremie,Fairy,,0869,495,65,60,75,110,121,64,"Sweet Veil, Aroma Veil",Sweet Veil,,Aroma Veil
@@ -1072,8 +1072,8 @@ Calyrex Shadow Rider,Psychic,Ghost,0898,680,100,85,80,165,100,150,As One,As One,
 Wyrdeer,Normal,Psychic,0899,525,103,105,72,105,75,65,"Intimidate, Frisk, Sap Sipper",Intimidate,Frisk,Sap Sipper
 Kleavor,Bug,Rock,0900,500,70,135,95,45,70,85,"Swarm, Sheer Force, Steadfast",Swarm,Sheer Force,Steadfast
 Ursaluna,Ground,Normal,0901,550,130,140,105,45,80,50,"Guts, Bulletproof, Unnerve",Guts,Bulletproof,Unnerve
-Basculegion Male,Water,Ghost,0902,530,120,112,65,80,75,78,Rattled Adaptability Mold Breaker,Rattled Adaptability Mold Breaker,,
-Basculegion Female,Water,Ghost,0902,530,120,92,65,100,75,78,Rattled Adaptability Mold Breaker,Rattled Adaptability Mold Breaker,,
+Basculegion Male,Water,Ghost,0902,530,120,112,65,80,75,78,"Rattled, Adaptability, Mold Breaker",Rattled,Adaptability,Mold Breaker
+Basculegion Female,Water,Ghost,0902,530,120,92,65,100,75,78,"Rattled, Adaptability, Mold Breaker",Rattled,Adaptability,Mold Breaker
 Sneasler,Fighting,Poison,0903,510,80,130,60,40,80,120,"Pressure, Poison Touch",Pressure,,Poison Touch
 Overqwil,Dark,Poison,0904,510,85,115,95,65,65,85,"Poison Point, Swift Swim, Intimidate",Poison Point,Swift Swim,Intimidate
 Enamorus Incarnate Forme,Fairy,Flying,0905,580,74,115,70,135,80,106,"Cute Charm, Contrary",Cute Charm,,Contrary
@@ -1098,8 +1098,8 @@ Pawmi,Electric,,0921,240,45,50,20,40,25,60,"Static, Natural Cure, Iron Fist",Sta
 Pawmo,Electric,Fighting,0922,350,60,75,40,50,40,85,"Volt Absorb, Natural Cure, Iron Fist",Volt Absorb,Natural Cure,Iron Fist
 Pawmot,Electric,Fighting,0923,490,70,115,70,70,60,105,"Volt Absorb, Natural Cure, Iron Fist",Volt Absorb,Natural Cure,Iron Fist
 Tandemaus,Normal,,0924,305,50,50,45,40,45,75,"Run Away, Pickup, Own Tempo",Run Away,Pickup,Own Tempo
-Maushold Family of Four,Normal,,0925,470,74,75,70,65,75,111,Friend Guard Cheek Pouch Technician,Friend Guard Cheek Pouch Technician,,
-Maushold Family of Three,Normal,,0925,470,74,75,70,65,75,111,Friend Guard Cheek Pouch Technician,Friend Guard Cheek Pouch Technician,,
+Maushold Family of Four,Normal,,0925,470,74,75,70,65,75,111,"Friend Guard, Cheek Pouch, Technician",Friend Guard,Cheek Pouch,Technician
+Maushold Family of Three,Normal,,0925,470,74,75,70,65,75,111,"Friend Guard, Cheek Pouch, Technician",Friend Guard,Cheek Pouch,Technician
 Fidough,Fairy,,0926,312,37,55,70,30,55,65,"Own Tempo, Klutz",Own Tempo,,Klutz
 Dachsbun,Fairy,,0927,477,57,80,115,50,80,95,"Well-Baked Body, Aroma Veil",Well-Baked Body,,Aroma Veil
 Smoliv,Grass,Normal,0928,260,41,35,45,58,51,30,"Early Bird, Harvest",Early Bird,,Harvest
@@ -1156,14 +1156,14 @@ Cetoddle,Ice,,0974,334,108,68,45,30,40,43,"Thick Fat, Snow Cloak, Sheer Force",T
 Cetitan,Ice,,0975,521,170,113,65,45,55,73,"Thick Fat, Slush Rush, Sheer Force",Thick Fat,Slush Rush,Sheer Force
 Veluza,Water,Psychic,0976,478,90,102,73,78,65,70,"Mold Breaker, Sharpness",Mold Breaker,,Sharpness
 Dondozo,Water,,0977,530,150,100,115,65,65,35,"Unaware, Oblivious, Water Veil",Unaware,Oblivious,Water Veil
-Tatsugiri Curly Form,Dragon,Water,0978,475,68,50,60,120,95,82,Commander Storm Drain,Commander Storm Drain,,
-Tatsugiri Droopy Form,Dragon,Water,0978,475,68,50,60,120,95,82,Commander Storm Drain,Commander Storm Drain,,
-Tatsugiri Stretchy Form,Dragon,Water,0978,475,68,50,60,120,95,82,Commander Storm Drain,Commander Storm Drain,,
+Tatsugiri Curly Form,Dragon,Water,0978,475,68,50,60,120,95,82,"Commander, Storm Drain",Commander,,Storm Drain
+Tatsugiri Droopy Form,Dragon,Water,0978,475,68,50,60,120,95,82,"Commander, Storm Drain",Commander,,Storm Drain
+Tatsugiri Stretchy Form,Dragon,Water,0978,475,68,50,60,120,95,82,"Commander, Storm Drain",Commander,,Storm Drain
 Annihilape,Fighting,Ghost,0979,535,110,115,80,50,90,90,"Vital Spirit, Inner Focus, Defiant",Vital Spirit,Inner Focus,Defiant
 Clodsire,Poison,Ground,0980,430,130,75,60,45,100,20,"Poison Point, Water Absorb, Unaware",Poison Point,Water Absorb,Unaware
 Farigiraf,Normal,Psychic,0981,520,120,90,70,110,70,60,"Cud Chew, Armor Tail, Sap Sipper",Cud Chew,Armor Tail,Sap Sipper
-Dudunsparce Two-Segment Form,Normal,,0982,520,125,100,80,85,75,55,Serene Grace Run Away Rattled,Serene Grace Run Away Rattled,,
-Dudunsparce Three-Segment Form,Normal,,0982,520,125,100,80,85,75,55,Serene Grace Run Away Rattled,Serene Grace Run Away Rattled,,
+Dudunsparce Two-Segment Form,Normal,,0982,520,125,100,80,85,75,55,"Serene Grace, Run Away, Rattled",Serene Grace,Run Away,Rattled
+Dudunsparce Three-Segment Form,Normal,,0982,520,125,100,80,85,75,55,"Serene Grace, Run Away, Rattled",Serene Grace,Run Away,Rattled
 Kingambit,Dark,Steel,0983,550,100,135,120,60,85,50,"Defiant, Supreme Overlord, Pressure",Defiant,Supreme Overlord,Pressure
 Great Tusk,Ground,Fighting,0984,570,115,131,131,53,53,87,Protosynthesis,Protosynthesis,,
 Scream Tail,Fairy,Psychic,0985,570,115,65,99,65,115,111,Protosynthesis,Protosynthesis,,

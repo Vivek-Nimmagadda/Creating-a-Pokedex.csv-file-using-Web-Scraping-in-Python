@@ -453,49 +453,21 @@ pokedex['Names_for_Abilities'] = pokedex['Names_for_Abilities'].str.title()
 data = pd.concat([df2, serebii_abilities]).drop_duplicates()
 data = data.reset_index(drop = True)
 
+# Match the names with that of the Pokedex table
+data['Name'] = data['Name'].str.title()
+
 # Merge
-data = pd.merge(pokedex, data, on = 'Name', how = 'left')
-
-data['Abilities_y'] = data['Abilities_y'].fillna('')
-
-for i in range(0, len(data)):
-    if(data['Abilities_y'][i] == ''):
-        data['Abilities_y'][i] = data['Abilities_x'][i]
+data = pd.merge(pokedex, data, left_on = 'Names_for_Abilities', right_on = 'Name', how = 'left')
         
 # Rename Abilities_y to Abilities
-data = data.rename(columns={"Abilities_y": "Abilities"})
+data = data.rename(columns={"Abilities_y": "Abilities",
+                            "Name_x": "Name"})
         
 # Discarde unwanted columns from pokedex
-data = data.drop(['Names_for_Abilities', 'Abilities_x', 'Ability_1', 'Ability_2', 'Hidden_Ability'], axis = 1)
+data = data.drop(['Names_for_Abilities', 'Abilities_x', 'Name_y'], axis = 1)
 
-data['Abilities'] = data['Abilities'].fillna('')
-data['Abilities_Split'] = data['Abilities'].str.split(', ')
-data['Ability_1'] = np.NaN
-data['Ability_2'] = np.NaN
-data['Hidden_Ability'] = np.NaN
-
-# Populating the 1st, 2nd, and hidden abilities
-for i in range(0, len(data)):
-    
-    if (data['Abilities'][i] == ''):
-        data['Ability_1'][i] = np.NaN
-        
-    elif (len(data['Abilities_Split'][i]) == 1):
-        data['Ability_1'][i] = data['Abilities_Split'][i][0]
-        data['Ability_2'][i] = np.NaN
-        data['Hidden_Ability'][i] = np.NaN
-    
-    elif (len(data['Abilities_Split'][i]) == 2):
-        data['Ability_1'][i] = data['Abilities_Split'][i][0]
-        data['Ability_2'][i] = np.NaN
-        data['Hidden_Ability'][i] = data['Abilities_Split'][i][1]
-        
-    elif(len(data['Abilities_Split'][i]) == 3):
-        data['Ability_1'][i] = data['Abilities_Split'][i][0]
-        data['Ability_2'][i] = data['Abilities_Split'][i][1]
-        data['Hidden_Ability'][i] = data['Abilities_Split'][i][2]
-        
-data = data.drop(['Abilities_Split'], axis = 1)
+# Drop duplicates
+data = data.drop_duplicates()
 
 # Final pokedex
 pokedex = data
@@ -506,6 +478,9 @@ pokedex = data
 
 # Store the pokedex dataframe as a csv
 pokedex.to_csv('Pokedex.csv', index = False, encoding = 'utf-8')
+
+# Store the pokedex dataframe as an excel file too
+pokedex.to_excel('Pokedex.xlsx', index = False)
 
 ############################################################################################
 ######################### Perform NLP on Ability Descriptions ##############################
