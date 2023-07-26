@@ -15,5 +15,5 @@ I would also like to acknowledge that I had used loops quite a lot in the script
 
 You can reach out to me at viveknimmagadda@gmail.com in case of any queries.
 
-Version 1.1
+Version 1.1:
 Bug fixes with regards to the abilities of a few Pokemon that were not reflecting. Also added a Pokedex.xlsx file if someone is more convenient with an excel spreadsheet compared to a csv file.
